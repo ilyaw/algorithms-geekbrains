@@ -14,6 +14,8 @@ case 1:
     solution1()
 case 2:
     solution2()
+case 3:
+    solution3()
 default:
     print("Такой задачи нет")
 }
