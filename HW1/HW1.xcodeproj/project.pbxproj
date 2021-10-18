@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		098BAABE271CA9320050430F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAABD271CA9320050430F /* main.swift */; };
+		098BAAC5271D8A2A0050430F /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAAC4271D8A2A0050430F /* Solution1.swift */; };
+		098BAAC7271D8A5F0050430F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAAC6271D8A5F0050430F /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		098BAABA271CA9320050430F /* HW1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW1; sourceTree = BUILT_PRODUCTS_DIR; };
 		098BAABD271CA9320050430F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		098BAAC4271D8A2A0050430F /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
+		098BAAC6271D8A5F0050430F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				098BAABD271CA9320050430F /* main.swift */,
+				098BAAC8271D8AD60050430F /* Solutions */,
+				098BAAC6271D8A5F0050430F /* Helper.swift */,
 			);
 			path = HW1;
+			sourceTree = "<group>";
+		};
+		098BAAC8271D8AD60050430F /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				098BAAC4271D8A2A0050430F /* Solution1.swift */,
+			);
+			path = Solutions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098BAAC5271D8A2A0050430F /* Solution1.swift in Sources */,
 				098BAABE271CA9320050430F /* main.swift in Sources */,
+				098BAAC7271D8A5F0050430F /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

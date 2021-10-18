@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Номер задачи:", terminator: " ")
 
+switch readLine(as: Int.self) {
+case 1:
+    solution1()
+default:
+    print("Такой задачи нет")
+}
