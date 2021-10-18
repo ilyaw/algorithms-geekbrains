@@ -12,6 +12,7 @@
 		098BAAC7271D8A5F0050430F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAAC6271D8A5F0050430F /* Helper.swift */; };
 		098BAACA271DB1460050430F /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAAC9271DB1460050430F /* Solution2.swift */; };
 		098BAACC271DBA4A0050430F /* Solution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAACB271DBA4A0050430F /* Solution3.swift */; };
+		098BAACE271DC42D0050430F /* Solution4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BAACD271DC42D0050430F /* Solution4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		098BAAC6271D8A5F0050430F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		098BAAC9271DB1460050430F /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
 		098BAACB271DBA4A0050430F /* Solution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3.swift; sourceTree = "<group>"; };
+		098BAACD271DC42D0050430F /* Solution4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				098BAAC4271D8A2A0050430F /* Solution1.swift */,
 				098BAAC9271DB1460050430F /* Solution2.swift */,
 				098BAACB271DBA4A0050430F /* Solution3.swift */,
+				098BAACD271DC42D0050430F /* Solution4.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				098BAAC5271D8A2A0050430F /* Solution1.swift in Sources */,
+				098BAACE271DC42D0050430F /* Solution4.swift in Sources */,
 				098BAACA271DB1460050430F /* Solution2.swift in Sources */,
 				098BAACC271DBA4A0050430F /* Solution3.swift in Sources */,
 				098BAABE271CA9320050430F /* main.swift in Sources */,
