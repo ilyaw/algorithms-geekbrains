@@ -9,10 +9,10 @@ import Foundation
 
 ///1. Попробовать оптимизировать пузырьковую сортировку. Сравнить количество операций сравнения оптимизированной и не оптимизированной программы.
 func solution1() {
-    let randomArray = (0...100).randomElements(10)
-    bubbleStandart(array: randomArray)
+    let randomNumbers = (0...100).randomElements(10)
+    bubbleStandart(array: randomNumbers)
     print("")
-    bubbleOptimize(array: randomArray)
+    bubbleOptimize(array: randomNumbers)
 }
 
 fileprivate func bubbleStandart(array: [Int]) {
@@ -64,9 +64,7 @@ fileprivate func bubbleOptimize(array: [Int]) {
         if !swap {
             break
         }
-        
     }
-    
     
     print("После оптимизированной пузырьковой сортировки:")
     print(arr)
