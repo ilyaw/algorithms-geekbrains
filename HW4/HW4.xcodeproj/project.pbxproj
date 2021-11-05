@@ -10,6 +10,7 @@
 		093E2A492733F036001E12D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E2A482733F036001E12D3 /* main.swift */; };
 		093E2A502733F058001E12D3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E2A4F2733F057001E12D3 /* Helper.swift */; };
 		093E2A532733F079001E12D3 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E2A522733F079001E12D3 /* Solution1.swift */; };
+		093E2A55273554FF001E12D3 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E2A54273554FF001E12D3 /* Solution2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		093E2A482733F036001E12D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		093E2A4F2733F057001E12D3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../HW3/HW3/Helper.swift; sourceTree = "<group>"; };
 		093E2A522733F079001E12D3 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
+		093E2A54273554FF001E12D3 /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				093E2A522733F079001E12D3 /* Solution1.swift */,
+				093E2A54273554FF001E12D3 /* Solution2.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				093E2A492733F036001E12D3 /* main.swift in Sources */,
+				093E2A55273554FF001E12D3 /* Solution2.swift in Sources */,
 				093E2A502733F058001E12D3 /* Helper.swift in Sources */,
 				093E2A532733F079001E12D3 /* Solution1.swift in Sources */,
 			);

@@ -21,3 +21,9 @@ extension RangeExpression where Bound: FixedWidthInteger {
         }
     }
 }
+
+extension String {
+    subscript(index: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: index)]
+    }
+}
