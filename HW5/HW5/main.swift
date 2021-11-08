@@ -13,7 +13,7 @@ switch readLine(as: Int.self) {
 case 1:
     solution1()
 case 2:
-    break
+    solution2()
 default:
     break
 }

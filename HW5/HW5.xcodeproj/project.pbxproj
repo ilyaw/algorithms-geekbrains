@@ -11,6 +11,7 @@
 		09C567362739045600551DCC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C567352739045600551DCC /* Helper.swift */; };
 		09C567382739047100551DCC /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C567372739047100551DCC /* Solution1.swift */; };
 		09C5673A27390D4100551DCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5673927390D4100551DCC /* Stack.swift */; };
+		09C5673C27393A9000551DCC /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5673B27393A9000551DCC /* Solution2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		09C567352739045600551DCC /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		09C567372739047100551DCC /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
 		09C5673927390D4100551DCC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		09C5673B27393A9000551DCC /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				09C567372739047100551DCC /* Solution1.swift */,
+				09C5673B27393A9000551DCC /* Solution2.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				09C5673A27390D4100551DCC /* Stack.swift in Sources */,
 				09C5672E2739041200551DCC /* main.swift in Sources */,
+				09C5673C27393A9000551DCC /* Solution2.swift in Sources */,
 				09C567362739045600551DCC /* Helper.swift in Sources */,
 				09C567382739047100551DCC /* Solution1.swift in Sources */,
 			);
