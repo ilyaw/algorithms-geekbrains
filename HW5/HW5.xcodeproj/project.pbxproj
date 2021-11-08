@@ -12,6 +12,8 @@
 		09C567382739047100551DCC /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C567372739047100551DCC /* Solution1.swift */; };
 		09C5673A27390D4100551DCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5673927390D4100551DCC /* Stack.swift */; };
 		09C5673C27393A9000551DCC /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5673B27393A9000551DCC /* Solution2.swift */; };
+		09C5674627396E3400551DCC /* Solution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5674527396E3400551DCC /* Solution3.swift */; };
+		09C567482739711200551DCC /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C567472739711200551DCC /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		09C567372739047100551DCC /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
 		09C5673927390D4100551DCC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		09C5673B27393A9000551DCC /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
+		09C5674527396E3400551DCC /* Solution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3.swift; sourceTree = "<group>"; };
+		09C567472739711200551DCC /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				09C567342739041A00551DCC /* Solutions */,
 				09C5672D2739041200551DCC /* main.swift */,
 				09C5673927390D4100551DCC /* Stack.swift */,
+				09C567472739711200551DCC /* Queue.swift */,
 				09C567352739045600551DCC /* Helper.swift */,
 			);
 			path = HW5;
@@ -78,6 +83,7 @@
 			children = (
 				09C567372739047100551DCC /* Solution1.swift */,
 				09C5673B27393A9000551DCC /* Solution2.swift */,
+				09C5674527396E3400551DCC /* Solution3.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C5673A27390D4100551DCC /* Stack.swift in Sources */,
+				09C567482739711200551DCC /* Queue.swift in Sources */,
 				09C5672E2739041200551DCC /* main.swift in Sources */,
 				09C5673C27393A9000551DCC /* Solution2.swift in Sources */,
 				09C567362739045600551DCC /* Helper.swift in Sources */,
+				09C5674627396E3400551DCC /* Solution3.swift in Sources */,
 				09C567382739047100551DCC /* Solution1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
