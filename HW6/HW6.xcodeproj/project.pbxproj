@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B1F8E327416044007D847B /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1F8E227416044007D847B /* Solution2.swift */; };
+		09B1F8E5274163DE007D847B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1F8E4274163DE007D847B /* Node.swift */; };
 		09DBD54F273D57CE00BB6DC2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBD54E273D57CE00BB6DC2 /* main.swift */; };
 		09DBD556273D57E600BB6DC2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBD555273D57E600BB6DC2 /* Helper.swift */; };
 		09DBD559273D580F00BB6DC2 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBD558273D580F00BB6DC2 /* Solution1.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09B1F8E227416044007D847B /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
+		09B1F8E4274163DE007D847B /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		09DBD54B273D57CE00BB6DC2 /* HW6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW6; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DBD54E273D57CE00BB6DC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		09DBD555273D57E600BB6DC2 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../HW5/HW5/Helper.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				09DBD558273D580F00BB6DC2 /* Solution1.swift */,
+				09B1F8E227416044007D847B /* Solution2.swift */,
+				09B1F8E4274163DE007D847B /* Node.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09DBD54F273D57CE00BB6DC2 /* main.swift in Sources */,
+				09B1F8E5274163DE007D847B /* Node.swift in Sources */,
+				09B1F8E327416044007D847B /* Solution2.swift in Sources */,
 				09DBD556273D57E600BB6DC2 /* Helper.swift in Sources */,
 				09DBD559273D580F00BB6DC2 /* Solution1.swift in Sources */,
 			);
