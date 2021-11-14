@@ -19,18 +19,6 @@ class Node {
     }
 }
 
-var node: Node? = Node(value: 8, leftChild: nil, rightChild: nil)
-
-func createNodes() {
-    createNode(data: 6, node: &node)
-    createNode(data: 7, node: &node)
-    createNode(data: 1, node: &node)
-    createNode(data: 10, node: &node)
-    createNode(data: 5, node: &node)
-    createNode(data: 12, node: &node)
-    createNode(data: 11, node: &node)
-}
-
 func createNode(data: Int, node: inout Node?) {
     guard let node = node else {
         node = Node(value: data, leftChild: nil, rightChild: nil)
@@ -42,4 +30,37 @@ func createNode(data: Int, node: inout Node?) {
     } else {
         createNode(data: data, node: &node.leftChild)
     }
+}
+
+func printTree(node: Node?) {
+    guard let node = node else {
+        return
+    }
+
+    print("\(node.value)")
+    
+    if node.leftChild != nil || node.rightChild != nil  {
+        print("(")
+        
+        if let leftNode = node.leftChild {
+            printTree(node: leftNode)
+        } else {
+            print("NULL")
+        }
+        
+        print(",")
+        
+        if let rightNode = node.rightChild {
+            printTree(node: rightNode)
+        } else {
+            print("NULL")
+        }
+        
+        print(")")
+    }
+    
+}
+
+fileprivate func print(_ text: String) {
+    print(text, terminator: "")
 }
