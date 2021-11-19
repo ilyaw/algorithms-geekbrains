@@ -1,6 +1,6 @@
 //
 //  Helper.swift
-//  HW3
+//  HW4
 //
 //  Created by Ilya on 01.11.2021.
 //
@@ -19,5 +19,11 @@ extension RangeExpression where Bound: FixedWidthInteger {
         case let range as ClosedRange<Bound>: return (0..<n).map { _ in .random(in: range) }
         default: return []
         }
+    }
+}
+
+extension String {
+    subscript(index: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: index)]
     }
 }
