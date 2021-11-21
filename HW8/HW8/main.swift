@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  HW7
+//  HW8
 //
-//  Created by Ilya on 15.11.2021.
+//  Created by Ilya on 21.11.2021.
 //
 
 import Foundation
@@ -17,3 +17,5 @@ case 2:
 default:
     break
 }
+
+
