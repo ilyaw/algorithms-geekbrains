@@ -1,19 +1,21 @@
 //
 //  main.swift
-//  HW7
+//  HW8
 //
-//  Created by Ilya on 15.11.2021.
+//  Created by Ilya on 21.11.2021.
 //
 
 import Foundation
 
-print("Номер задачи 1...1:", terminator: " ")
+print("Номер задачи 1...2:", terminator: " ")
 
 switch readLine(as: Int.self) {
 case 1:
     solution1()
 case 2:
-    break
+    solution2()
 default:
     break
 }
+
+
